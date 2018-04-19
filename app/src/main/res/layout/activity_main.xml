@@ -89,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/player_one_layout"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="10dp">
 
 
@@ -162,7 +162,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/player_two_layout"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="10dp">
 
 
@@ -235,7 +235,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/player_three_layout"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="15dp">
 
@@ -304,6 +304,17 @@
 
 
         </RelativeLayout>
+
+        <TextView
+            android:id="@+id/whoLost"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/player_four_layout"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:text="Player X LOSES!"
+            android:textSize="20sp" />
 
 
 
