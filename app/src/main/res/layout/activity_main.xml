@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id = "@+id/player_one_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp">
+
+
+            <EditText
+                android:id="@+id/player_one_name"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/player_one" />
+
+            <EditText
+                android:id="@+id/player_one_lives_left_tag"
+                android:layout_width="129dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/player_one_name"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/lives_left" />
+
+            <TextView
+                android:id="@+id/player_one_lives"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                android:layout_alignEnd="@id/player_one_lives_left_tag"
+                android:layout_below="@+id/player_one_name"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/player_one_plus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/player_one_name"
+                android:text="@string/plus" />
+
+            <Button
+                android:id="@+id/player_one_minus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_toEndOf="@id/player_one_plus"
+                android:text="@string/minus" />
+
+            <Button
+                android:id="@+id/player_one_plus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_below="@id/player_one_plus"
+                android:layout_alignLeft="@id/player_one_plus"
+                android:text="@string/plus_five" />
+
+            <Button
+                android:id="@+id/player_one_minus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:text="@string/minus_five"
+                android:layout_below="@id/player_one_minus"
+                android:layout_alignLeft="@id/player_one_minus" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id = "@+id/player_two_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_one_layout"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp">
+
+
+            <EditText
+                android:id="@+id/player_two_name"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/player_two" />
+
+            <EditText
+                android:id="@+id/player_two_lives_left_tag"
+                android:layout_width="129dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/player_two_name"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/lives_left" />
+
+            <TextView
+                android:id="@+id/player_two_lives"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                android:layout_alignEnd="@id/player_two_lives_left_tag"
+                android:layout_below="@+id/player_two_name"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/player_two_plus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/player_two_name"
+                android:text="@string/plus" />
+
+            <Button
+                android:id="@+id/player_two_minus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_toEndOf="@id/player_two_plus"
+                android:text="@string/minus" />
+
+            <Button
+                android:id="@+id/player_two_plus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_below="@id/player_two_plus"
+                android:layout_alignLeft="@id/player_two_plus"
+                android:text="@string/plus_five" />
+
+            <Button
+                android:id="@+id/player_two_minus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:text="@string/minus_five"
+                android:layout_below="@id/player_two_minus"
+                android:layout_alignLeft="@id/player_two_minus" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id = "@+id/player_three_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_two_layout"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp">
+
+
+            <EditText
+                android:id="@+id/player_three_name"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/player_three" />
+
+            <EditText
+                android:id="@+id/player_three_lives_left_tag"
+                android:layout_width="129dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/player_three_name"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/lives_left" />
+
+            <TextView
+                android:id="@+id/player_three_lives"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                android:layout_alignEnd="@id/player_three_lives_left_tag"
+                android:layout_below="@+id/player_three_name"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/player_three_plus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/player_three_name"
+                android:text="@string/plus" />
+
+            <Button
+                android:id="@+id/player_three_minus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_toEndOf="@id/player_three_plus"
+                android:text="@string/minus" />
+
+            <Button
+                android:id="@+id/player_three_plus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_below="@id/player_three_plus"
+                android:layout_alignLeft="@id/player_three_plus"
+                android:text="@string/plus_five" />
+
+            <Button
+                android:id="@+id/player_three_minus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:text="@string/minus_five"
+                android:layout_below="@id/player_three_minus"
+                android:layout_alignLeft="@id/player_three_minus" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id = "@+id/player_four_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_three_layout"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp">
+
+
+            <EditText
+                android:id="@+id/player_four_name"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/player_four" />
+
+            <EditText
+                android:id="@+id/player_four_lives_left_tag"
+                android:layout_width="129dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/player_four_name"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:text="@string/lives_left"
+
+                />
+
+            <TextView
+                android:id="@+id/player_four_lives"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                android:layout_alignEnd="@id/player_four_lives_left_tag"
+                android:layout_below="@+id/player_four_name"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/player_four_plus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/player_four_name"
+                android:text="@string/plus" />
+
+            <Button
+                android:id="@+id/player_four_minus"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_toEndOf="@id/player_four_plus"
+                android:text="@string/minus" />
+
+            <Button
+                android:id="@+id/player_four_plus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:layout_below="@id/player_four_plus"
+                android:layout_alignLeft="@id/player_four_plus"
+                android:text="@string/plus_five" />
+
+            <Button
+                android:id="@+id/player_four_minus_five"
+                android:layout_width="62dp"
+                android:layout_height="47dp"
+                android:text="@string/minus_five"
+                android:layout_below="@id/player_four_minus"
+                android:layout_alignLeft="@id/player_four_minus" />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
