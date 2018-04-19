@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives1 == 0){
-                    whoLost.setText("Player1 LOST!")
+                    whoLost.setText("Player 1 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
 
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             LifeCount2.setText(lives2.toString())
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives2 == 0){
-                    whoLost.setText("Player2 LOST!")
+                    whoLost.setText("Player 2 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
             LifeCount3.setText(lives3.toString())
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives3 == 0){
-                    whoLost.setText("Player3 LOST!")
+                    whoLost.setText("Player 3 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives4 == 0){
-                    whoLost.setText("Player4 LOST!")
+                    whoLost.setText("Player 4 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives1 == 0){
-                    whoLost.setText("Player1 LOST!")
+                    whoLost.setText("Player 1 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             LifeCount2.setText(lives2.toString())
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives2 == 0){
-                    whoLost.setText("Player2 LOST!")
+                    whoLost.setText("Player 2 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives3 == 0){
-                    whoLost.setText("Player3 LOST!")
+                    whoLost.setText("Player 3 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -160,7 +160,7 @@ class MainActivity : AppCompatActivity() {
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 whoLost.visibility = View.VISIBLE
                 if(lives4 == 0){
-                    whoLost.setText("Player4 LOST!")
+                    whoLost.setText("Player 4 LOSES!")
                 }
             }else{
                 whoLost.visibility = View.INVISIBLE
@@ -180,7 +180,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives1 == 0){
-                    whoLost.setText("Player1 LOST!")
+                    whoLost.setText("Player 1 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -196,7 +196,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives2 == 0){
-                    whoLost.setText("Player2 LOST!")
+                    whoLost.setText("Player 2 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -213,7 +213,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives3 == 0){
-                    whoLost.setText("Player3 LOST!")
+                    whoLost.setText("Player 3 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -230,7 +230,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives4 == 0){
-                    whoLost.setText("Player4 LOST!")
+                    whoLost.setText("Player 4 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -252,7 +252,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives1 == 0){
-                    whoLost.setText("Player1 LOST!")
+                    whoLost.setText("Player 1 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -271,7 +271,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives2 == 0){
-                    whoLost.setText("Player2 LOST!")
+                    whoLost.setText("Player 2 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -290,7 +290,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives3 == 0){
-                    whoLost.setText("Player3 LOST!")
+                    whoLost.setText("Player 3 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
@@ -311,7 +311,7 @@ class MainActivity : AppCompatActivity() {
 
             if(lives1 == 0 ||lives2 == 0 || lives3 == 0 || lives4 == 0 ){
                 if(lives4 == 0){
-                    whoLost.setText("Player4 LOST!")
+                    whoLost.setText("Player 4 LOSES!")
                 }
                 whoLost.visibility = View.VISIBLE
             }else{
